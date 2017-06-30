@@ -9,7 +9,6 @@ import js.html.CanvasRenderingContext2D;
 import zeal.Zeal;
 using zeal.ZealMain;
 class ZealMain{
-    var canvas: CanvasRenderingContext2D;
     static function main(){ new ZealMain(); } public function new(){
         var canvas = new CanvasWrapper();
         Leaf.showBoxes = true;
